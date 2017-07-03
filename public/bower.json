@@ -1,0 +1,17 @@
+{
+  "name": "Expedia assignment",
+  "homepage": "https://github.com/alaashehadeh/expedia",
+  "authors": [
+    "Ala Shehadeh"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
