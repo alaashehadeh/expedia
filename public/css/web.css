@@ -1,7 +1,7 @@
 body {
   background-color: #cccccc;
   font-family: tahoma;
-  font-size: 20px;
+  font-size: 18px;
 }
 .navbar-default {
   background-color: #ffffff;
@@ -29,4 +29,44 @@ form {
 }
 .rating {
   margin-top: -13px;
+}
+input[type=number] {
+  width: 100%;
+}
+.rating-disabled .rating {
+  cursor: auto;
+}
+.card {
+  border: solid 1px #cccccc;
+  height: 325px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.card .old-price {
+  margin-right: 30px;
+  color: red;
+}
+.card .stars {
+  clear: both;
+  margin-top: 40px;
+}
+.card .hotelImage {
+  float: left;
+  margin-right: 10px;
+}
+.card h5 {
+  color: #cccccc;
+}
+.card .desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 16px;
+  line-height: 1.8;
+  /* fallback */
+  margin-top: 10px;
+  margin-bottom: 20px;
 }

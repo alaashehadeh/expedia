@@ -1,7 +1,7 @@
 @bg_color: #cccccc;
 @inner_color: #ffffff;
 @font-family: tahoma;
-@font-size: 20px;
+@font-size: 18px;
 @spaces: 10px;
 body {
   background-color: @bg_color;
@@ -35,9 +35,51 @@ form {
     margin-bottom: @spaces;
   }
 }
+
 .rating-xs {
   font-size: 1.5em;
 }
+
 .rating {
   margin-top: -13px;
+}
+
+input[type=number] {
+  width: 100%;
+}
+.rating-disabled .rating {
+  cursor: auto;
+}
+.card {
+  .old-price {
+    margin-right: @spaces*3;
+    color: red;
+  }
+  border: solid 1px #cccccc;
+  height: 325px;
+  padding: @spaces;
+  margin-bottom: @spaces;
+  margin-top: @spaces;
+  .stars {
+    clear: both;
+    margin-top: @spaces * 4;
+  }
+  .hotelImage {
+    float: left;
+    margin-right: @spaces;
+  }
+  h5 {
+    color: @bg_color;
+  }
+  .desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 16px;
+    line-height: 1.8; /* fallback */
+    margin-top: @spaces;
+    margin-bottom: @spaces*2;
+  }
 }
